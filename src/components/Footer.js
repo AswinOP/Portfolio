@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Shreyas K</h3>
+          <h3>Designed and Developed by Aswin OP</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/SHREYK213"
+                href="https://github.com/aswinop"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/ItsZeeMuffinMan"
+                href="https://twitter.com/isnowflakestv"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/shreyas-poojary-b17628225/"
+                href="https://www.linkedin.com/in/aswinop/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_shreyas__k/"
+                href="https://www.instagram.com/ig.aswin/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

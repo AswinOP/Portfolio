@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import webappsecurity from "../../Assets/Projects/websecurity.png";
-import weatherapp from "../../Assets/Projects/weatherapp.jpg";
-import poll from "../../Assets/Projects/poll.png";
-import musicapp from "../../Assets/Projects/musicapp.png";
-import taskhive from "../../Assets/Projects/taskhive.png";
+import matrixx from "../../Assets/Projects/matrixx.jpg";
+import mi from "../../Assets/Projects/mi.png";
+import miuicam from "../../Assets/Projects/miuicam.png";
+import kernel from "../../Assets/Projects/kernel.png";
 import portfolio from '../../Assets/Projects/portfolio.svg'
-import destuk from '../../Assets/Projects/destuk.jpg'
-import taxi from '../../Assets/Projects/taxi.png'
+import pixelos from '../../Assets/Projects/pixelos.png'
 
 function Projects() {
   return (
@@ -30,88 +28,62 @@ function Projects() {
               isBlog={false}
               title="Personal Website"
               description="This is a personal portfolio made using React.js. This is the present project you are viewing"
-              ghLink="https://github.com/SHREYK213/Portfolio#readme"
-              demoLink="https://shreyas-portfolio.onrender.com/"
+              ghLink="https://github.com/AswinOP/Portfolio"
+              demoLink="https://aswinop.github.io/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={poll}
+              imgPath={mi}
               isBlog={false}
-              title="Polls_App"
-              description="This is a polling app, using python,Django and google charts. This allows users to create, update, vote and filter"
-              ghLink="https://github.com/SHREYK213/Django_Polls_App#readme"
+              title="Device Tree"
+              description="Dependency of Xiaomi POCO X4 Pro 5G / Redmi Note 11 Pro 5G / Redmi Note 11 Pro+ 5G / Redmi Note 11E Pro"
+              ghLink="https://github.com/AswinOP/device_xiaomi_peux.git#readme"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taskhive}
+              imgPath={kernel}
               isBlog={false}
-              title="TaskHive"
-              description="This is a task app built using the MERN stack (MongoDB, Express.js, React, Node.js). This allows users to create update and delete tasks and accounts"
-              ghLink="https://github.com/SHREYK213/MERN-stack_TaskHive#readme"
+              title="Rashoumon kernel"
+              description="This is an OSS kernel for veux and peux (sm6375)"
+              ghLink="https://github.com/AswinOP/kernel_xiaomi_sm6375.git#readme"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weatherapp}
+              imgPath={matrixx}
               isBlog={false}
-              title="Wether_Website"
-              description="Online weather website using API and Node.js, this allows users to find the details of the weather of that location"
-              ghLink="https://github.com/SHREYK213/Wether_Website#readme"
-              demoLink="https://weather-application-3pfw.onrender.com/"
+              title="Project Matrixx"
+              description="Matrixx is a custom ROM, Based on crDroid Android with extra pinch of Salt."
+              ghLink="https://github.com/ProjectMatrixx"
+              demoLink="https://www.projectmatrixx.org/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taskhive}
+              imgPath={pixelos}
               isBlog={false}
-              title="TaskApp backend"
-              description="This is a more complex backend, with much more features implemented into it. Than the currently available app"
-              ghLink="https://github.com/SHREYK213/NODE.js_TaskApp-backend#readme"
+              title="Pixel OS"
+              description="An AOSP based ROM aiming to provide the best of Pixel"
+              ghLink="https://github.com/PixelOS-AOSP"
+              demoLink="https://pixelos.net/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={musicapp}
+              imgPath={miuicam}
               isBlog={false}
-              title="MusicApp"
-              description="This is a project made utilizing DotNetCore and EntityFramework to build RestAPI's where the audio is stored in azure and accessed though api."
-              ghLink="https://github.com/SHREYK213/MusicApp"
+              title="MiuiCamera"
+              description="MIUI Camera for AOSP ROMs."
+              ghLink="https://github.com/AswinOP/vendor_xiaomi_miuicamera"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={webappsecurity}
-              isBlog={false}
-              title="WebApp_Security"
-              description="This is a project made using ASP.NET CORE Identity and that aims on WebSecurity by taking the user details and password and providing the user with otp to login."
-              ghLink="https://github.com/SHREYK213/WebApp_Security"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={destuk}
-              isBlog={false}
-              title="Destination Unknown"
-              description="This is a simple HTML5 and CSS3 project with basic javascript. With completely functioning buttons, navbar, and a responsive design."
-              ghLink="https://github.com/SHREYK213/Destination_Unknown#readme"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={taxi}
-              isBlog={false}
-              title="TaxiSite"
-              description="This is a responsive Taxi Booking site that is built using HTML5, CSS3, Bootstrap and Javascript"
-              ghLink="https://github.com/SHREYK213/TaxiSite#readme"
-            />
+            
           </Col>
         </Row>
       </Container>

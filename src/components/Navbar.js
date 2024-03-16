@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.cakeresume.com/me/shreyas-dd990e/portfolios?ref=dashboard_navs_portfolios"
+                href="https://github.com/AswinOP/AswinOP#readme"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -106,7 +106,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/SHREYK213"
+                href="https://github.com/aswinop"
                 target="_blank"
                 className="fork-btn-inner"
               >

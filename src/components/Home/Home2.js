@@ -19,35 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a versatile coder who has explored multiple tech stacks, and I am quite proficient at what I do, I believe... 🤷‍♂️
+              I am a content creator and developer, and I am quite proficient at what I do, I believe... 🤷‍♂️
               <br />
               <br />I am fluent
               <i>
-                <b className="purple">Python, Node.js and C#</b>
+                <b className="purple"> Python, Git and C</b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Custom rom Development </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Game Development.
+                  Content creation.
                 </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
@@ -66,7 +52,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/SHREYK213"
+                  href="https://github.com/aswinop"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +62,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/ItsZeeMuffinMan"
+                  href="https://twitter.com/isnowflakestv"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/shreyas-poojary-b17628225/"
+                  href="https://www.linkedin.com/in/aswinop/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/_shreyas__k/"
+                  href="https://www.instagram.com/itsaswinop/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
